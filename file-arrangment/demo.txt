@@ -1,0 +1,5 @@
+1 niko, 12
+2 moses, 13
+3 john, 14
+4 kilo, 15
+5 ojo, 33
