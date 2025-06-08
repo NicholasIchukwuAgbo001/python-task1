@@ -1,11 +1,12 @@
 import unittest
 
-from account import Account
+from bank.bank import Account
+
 
 class TestAtmMachineApp(unittest.TestCase):
     def setUp(self):
-        self.account1 = Account("7058705863","Nicholas", "Ichukwu", 1010)
-        self.account2 = Account("7058705866","Moses", "Idowu", 2020)
+        self.account1 = Account("7058705863", "Nicholas", "Ichukwu", 1010)
+        self.account2 = Account("7058705866", "Moses", "Idowu", 2020)
 
     def test_account1_is_created(self):
         self.assertIsNotNone(self.account1)
@@ -38,7 +39,5 @@ class TestAtmMachineApp(unittest.TestCase):
         self.assertEqual(5000, self.account2.balance)
 
 
-
 if __name__ == '__main__':
     unittest.main()
-

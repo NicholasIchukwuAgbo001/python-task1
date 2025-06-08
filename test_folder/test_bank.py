@@ -1,5 +1,8 @@
+
 import unittest
-from bank import Bank
+
+from bank.bank import Bank
+
 
 class BankTest(unittest.TestCase):
 

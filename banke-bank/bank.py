@@ -1,3 +1,4 @@
+
 import random
 from account import Account
 
@@ -69,4 +70,3 @@ class Bank:
             account1.deposit_money(account2, pin, amount)
         else:
             raise ValueError("Invalid PIN or account number")
-
